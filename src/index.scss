@@ -1,0 +1,50 @@
+@import "~bulma";
+
+html,
+body {
+  background-color: #222;
+}
+
+#root,
+.app {
+  min-height: 100vh;
+}
+
+.dark-bg {
+  background-color: #333;
+  color: #ccc;
+  &::placeholder {
+    color: #ababab;
+  }
+}
+
+.vh100 {
+  min-height: 100vh;
+}
+.vh90 {
+  min-height: 90vh;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+.p0 {
+  padding: 0;
+}
+.pt0 {
+  padding-top: 0;
+}
+.pb0 {
+  padding-bottom: 0;
+}
+.pv0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.transformer-main {
+}
+
+.transformer-output-editor {
+  overflow: auto;
+}
